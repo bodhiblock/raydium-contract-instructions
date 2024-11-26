@@ -1,5 +1,6 @@
 //! State transition types
 
+use anchor_lang::solana_program;
 use solana_program::pubkey::Pubkey;
 
 #[cfg_attr(feature = "client", derive(Debug))]

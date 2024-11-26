@@ -1,6 +1,5 @@
 [workspace]
 members = [
-    "client",
     "lib",
     "amm-anchor",
     "stable-amm-anchor",
@@ -8,3 +7,6 @@ members = [
     "staking-anchor",
 ]
 
+
+[profile.release]
+overflow-checks = true

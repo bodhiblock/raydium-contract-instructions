@@ -2,6 +2,8 @@
 
 #![allow(clippy::too_many_arguments)]
 
+use anchor_lang::solana_program;
+use anchor_spl::{associated_token::spl_associated_token_account, token::spl_token};
 use solana_program::{
     instruction::{AccountMeta, Instruction},
     program_error::ProgramError,
@@ -11,7 +13,7 @@ use solana_program::{
 use std::convert::TryInto;
 use std::mem::size_of;
 
-solana_program::declare_id!("675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8");
+// solana_program::declare_id!("675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8");
 
 #[repr(C)]
 #[derive(Clone, Copy, Debug, Default, PartialEq)]
