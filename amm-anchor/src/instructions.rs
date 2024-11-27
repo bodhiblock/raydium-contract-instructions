@@ -158,6 +158,7 @@ pub fn swap_base_in<'a, 'b, 'c, 'info>(
         ctx.accounts.amm.key,
         ctx.accounts.amm_authority.key,
         ctx.accounts.amm_open_orders.key,
+        ctx.accounts.amm_target_orders.key,
         ctx.accounts.amm_coin_vault.key,
         ctx.accounts.amm_pc_vault.key,
         ctx.accounts.market_program.key,
